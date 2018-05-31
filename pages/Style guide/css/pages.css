@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	color: black;
+}
+main {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center
+}
+section {
+	min-height: 180px;
+	height: auto;
+}
+/* ---------------------- Collections ---------------------- */
+.justify {
+	text-align: justify;
+}
+.normalcard, .smallcard, .imagetextcard, .videotextcard, .imagecard, .ticketbannercard, .Rectangle {
+	border: 1px;
+	border-color: #050505;
+	border-style: solid;
+}
+nav li a, .titel, .tussentitel, .tekst, p, .accenten, .knoppen-nav {
+	font-synthesis: none;
+	-moz-font-feature-settings: 'kern';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+nav li a, .btnticket, .btnticket:hover {
+	text-decoration: none;
+}
+nav li a, .containeroverlay p {
+	text-align: center
+}
+.normalcard:hover, .smallcard:hover, .imagetextcard:hover, .videotextcard:hover, .imagecard:hover, .ticketbannercard:hover, .Rectangle:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+/* ---------------------- Navigation ---------------------- */
+nav ul {
+	margin: 0;
+	padding: 0;
+	background-color: #707070;
+	list-style-type: none;
+	overflow: hidden;
+}
+nav li {
+	float: left;
+}
+nav li a {
+	display: block;
+	color: #FFFFFF;
+	padding: 15px 15px;
+	border: 1px;
+	border-color: #050505;
+	border-right-style: solid;
+}
+nav li a:hover:not(.active) {
+	background-color: #6ED8BE;
+	color: #3F3F3F;
+}
+nav li a.active {
+	color: #050505;
+	background-color: #6ED8BE;
+}
+/* ---------------------- Typography ---------------------- */
+.titel {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 60px;
+}
+.tussentitel {
+	font-family:'Roboto Slab', serif;
+	font-size: 25px;
+	line-height: 50px;
+}
+.tekst, p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+}
+.knoppen-nav, nav li a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 15px;
+	line-height: 15px;
+}
+/* ---------------------- Colors ---------------------- */
+.Rectangle {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+}
+.Bermuda {
+	background-color: #6ED8BE;
+}
+.Black {
+	background-color: #050505;
+}
+.White {
+	background-color: #FFFFFF;
+}
+.DoveGray {
+	background-color: #707070;
+}
+.DarkenDoveGray {
+	background-color: #6F6F6F;
+}
+/* ---------------------- UI Cards ---------------------- */
+
+/* +++++++++ Normal card +++++++++ */
+.normalcard {
+	margin: auto;
+	width: 400px;
+	background-color: #707070;
+	color: #FFFFFF;
+}
+.container {
+	padding: 2px 16px;
+}
+/* +++++++++ Small card +++++++++ */
+.smallcard {
+	margin: auto;
+	width: 400px;
+	background-color: #707070;
+	color: #FFFFFF;
+}
+.container {
+	padding: 2px 16px;
+}
+/* +++++++++ Image with text card +++++++++ */
+.imagetextcard {
+	margin: auto;
+	width: 400px;
+	background-color: #707070;
+	color: #FFFFFF;
+	height: 379px;
+}
+.containeroverlay {
+	width: 100%;
+	position: relative;
+	margin-top: -119px;
+	background-color: hsla(0,0%,0%,0.50);
+	height: 80px;
+	color: #ffffff;
+}
+/* +++++++++ Video with text card +++++++++ */
+.videotextcard {
+	margin: auto;
+	width: 400px;
+	background-color: #707070;
+	color: #FFFFFF;
+	height: 379px;
+}
+.videocontaineroverlay {
+	width: 100%;
+	position: relative;
+	margin-top: 357px;
+	background-color: hsla(0,0%,0%,0.50);
+	height: 80px;
+}
+/* +++++++++ Image card +++++++++ */
+.imagecard {
+	margin: auto;
+	width: 400px;
+	background-color: #707070;
+	color: #FFFFFF;
+	height: 379px;
+}
+/* +++++++++ Ticket banner card +++++++++ */
+.ticketbannercard {
+	width: 100%;
+	height: 150px;
+	background-color: #707070;
+}
+.ticketbannercarddate {
+	line-height: 30px;
+	float: left;
+	margin: 17px 45px;
+	color: #ffffff;
+}
+.ticketbannercardlocation {
+	margin: 56px 250px 50px 0;
+	color: #ffffff;
+}
+/* --------------------- UI elements ---------------------- */
+
+/* +++++++++ Ticket button +++++++++ */
+
+.btnticket {
+	color: #050505;
+	font-size: 20px;
+	background-color: #7BC6B5;
+	padding: 5px 40px 5px 40px;
+	border: solid #050505 3px;
+	text-transform: uppercase;
+}
+.btnticketlocation {
+	float: right;
+	margin: -90px 30px;
+}
+.btnticket:hover {
+	background-color: #707070;
+	color: #7BC6B5;
+	cursor: pointer;
+}
+/* +++++++++ read more button +++++++++ */
+
+a.round {
+	text-decoration: none;
+	display: inline-block;
+	padding: 2px 30px;
+	border: 2px;
+	border-color: #050505;
+	border-style: solid;
+}
+a.roundlocation {
+	margin-left: 300px;
+	margin-bottom: 10px;
+}
+a:hover.round {
+	background-color: #707070;
+	color: #7BC6B5;
+}
+.next {
+	background-color: #7BC6B5;
+	color: #050505;
+}
+.round {
+	border-radius: 50%;
+}
+/* +++++++++ Round play button +++++++++ */
+.circle {
+	background-color: #6ED8BE;
+	border-radius: 50px;
+	height: 100px;
+	position: relative;
+	width: 100px;
+	border: 2px;
+	border-color: #050505;
+	border-style: solid;
+	margin: auto;
+}
+.circlelocation {
+	margin: -280px auto;
+}
+.circle:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 30px 0 30px 40px;
+	border-color: transparent transparent transparent #707070;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: -5px;
+	bottom: 0;
+	margin: auto;
+}
+.circle:hover {
+	background-color: #707070;
+}
+.circle:hover:before {
+	border-color: transparent transparent transparent #6ED8BE;
+}
+.fab {
+	font-size: 80px;
+	color: #6ED8BE
+}
+/* +++++++++ Square play button +++++++++ */
+
+.squareplay {
+	background-color: #6ED8BE;
+	height: 50px;
+	position: relative;
+	width: 50px;
+	border: 2px;
+	border-color: #050505;
+	border-style: solid;
+	margin: auto;
+}
+.squareplay:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 0 20px 30px;
+	border-color: transparent transparent transparent #707070;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: -5px;
+	bottom: 0;
+	margin: auto;
+}
+.squareplay:hover {
+	background-color: #707070;
+}
+.squareplay:hover:before {
+	border-color: transparent transparent transparent #6ED8BE;
+}
+/* +++++++++ Download button +++++++++ */
+
+.btndownload {
+	color: #FFFFFF;
+	font-size: 20px;
+	background-color: #6F6F6F;
+	padding: 5px 40px 5px 40px;
+	border: solid #7BC6B5 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: -90px 30px;
+}
+.btndownload:hover {
+	background-color: #7BC6B5;
+	color: #050505;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* +++++++++ Submit button +++++++++ */
+
+.btnsubmit {
+	color: #050505;
+	font-size: 20px;
+	background-color: #7BC6B5;
+	padding: 5px 40px 5px 40px;
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: -90px 30px;
+}
+.btnsubmit:hover {
+	background-color: #707070;
+	color: #7BC6B5;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* +++++++++ Home box  +++++++++ */
+
+.homebox {
+	width: 150px;
+	height: 100px;
+	background-color: #707070;
+	color: #7BC6B5;
+	margin: 0 auto;
+	display: table;
+	border: 1px;
+	border-style: solid;
+	border-color: #060606;
+}
+.homebox:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+.linkboxlocation {
+	text-align: center;
+	margin: auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+/* +++++++++ Link box +++++++++ */
+
+.linkboxnodecoration {
+	text-decoration: none;
+}
+.linkbox {
+	width: 70px;
+	height: 100px;
+	background-color: #FFFFFF;
+	color: #7BC6B5;
+	margin: 0 auto;
+	display: table;
+	border: 1px;
+	border-style: solid;
+	border-color: #060606;
+}
+.linkbox:hover {
+	background-color: #707070;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+/* +++++++++ Header +++++++++ */
+
+.header {
+	width: 800px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+/* +++++++++ Logo +++++++++ */
+
+.logo {
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
