@@ -76,6 +76,10 @@ nav li a {
 	border: 1px;
 	border-color: #050505;
 	border-right-style: solid;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 15px;
+	line-height: 15px;
 }
 nav li a:hover:not(.active) {
 	background-color: #6ED8BE;
@@ -85,6 +89,7 @@ nav li a.active {
 	color: #050505;
 	background-color: #6ED8BE;
 }
+
 /* ---------------------- Typography ---------------------- */
 .titel {
 	font-family: 'Roboto Slab', serif;
