@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-	color: white;
-	background-image: url('../images/background.png');
-    background-repeat:no-repeat;
-	background-size:cover;
+	color: black;
 }
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -109,7 +106,7 @@ nav li a.active {
 	font-size: 30px;
 	line-height: 35px;
 }
-.knoppen-nav, nav li a {
+.knoppen-nav{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bolder;
 	font-size: 25px;
@@ -174,7 +171,7 @@ nav li a.active {
 .containeroverlay {
 	width: 100%;
 	position: relative;
-	margin-top: -119px;
+	margin-top: -103px;
 	background-color: hsla(0,0%,0%,0.50);
 	height: 80px;
 	color: #ffffff;
@@ -183,14 +180,14 @@ nav li a.active {
 .videotextcard {
 	margin: auto;
 	width: 400px;
-	background-color: #707070;
+	background-color: #707070; 
 	color: #FFFFFF;
-	height: 379px;
+	height: 400px;
 }
 .videocontaineroverlay {
 	width: 100%;
 	position: relative;
-	margin-top: 357px;
+	margin-top: 372px;
 	background-color: hsla(0,0%,0%,0.50);
 	height: 80px;
 }
@@ -229,6 +226,10 @@ nav li a.active {
 	padding: 5px 40px 5px 40px;
 	border: solid #050505 3px;
 	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+
 }
 .btnticketlocation {
 	float: right;
@@ -244,7 +245,7 @@ nav li a.active {
 a.round {
 	text-decoration: none;
 	display: inline-block;
-	padding: 2px 30px;
+	padding: 0px 20px;
 	border: 2px;
 	border-color: #050505;
 	border-style: solid;
@@ -260,6 +261,11 @@ a:hover.round {
 .next {
 	background-color: #7BC6B5;
 	color: #050505;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 50px;
+	
+	
 }
 .round {
 	border-radius: 50%;
@@ -348,6 +354,10 @@ a:hover.round {
 	text-decoration: none;
 	text-transform: uppercase;
 	margin: -90px 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+
 }
 .btndownload:hover {
 	background-color: #7BC6B5;
@@ -358,7 +368,7 @@ a:hover.round {
 /* +++++++++ Submit button +++++++++ */
 
 .btnsubmit {
-	color: #050505;
+	color: #ffffff;
 	font-size: 20px;
 	background-color: #7BC6B5;
 	padding: 5px 40px 5px 40px;
@@ -366,6 +376,10 @@ a:hover.round {
 	text-decoration: none;
 	text-transform: uppercase;
 	margin: -90px 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+
 }
 .btnsubmit:hover {
 	background-color: #707070;
@@ -435,3 +449,8 @@ a:hover.round {
 	margin-right: auto;
 	display: block;
 }
+/* +++++++++ Background +++++++++ */
+.background {
+	background-image: url('../images/background.png');
+}
+
